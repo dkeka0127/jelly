@@ -1,0 +1,107 @@
+//p309 함수원형(prototype) = 함수헤더 + ;
+
+//p311함수 정의 = 함수헤더 + 함수 바디
+
+ 
+
+ 
+
+//p332 연습문제 11번 루트사용
+
+ 
+
+//#include <stdio.h>
+
+//#include <math.h>
+
+//
+
+//double get_distance(double x1,double y1,double x2,double y2) ;
+
+//
+
+//int main()
+
+//{
+
+//	double a, b, c, d;
+
+//
+
+//	printf("x, y 좌표입력 : ");
+
+//	scanf("%lf %lf", &a ,&b);
+
+//	printf("x, y 좌표입력 : ");
+
+//	scanf("%lf %lf", &c ,&d);
+
+//
+
+//	printf("거리 = %lf\n", get_distance(a,b,c,d));
+
+//
+
+//	return 0;
+
+//}
+
+//
+
+//double get_distance(double x1,double y1,double x2,double y2)
+
+//{
+
+//	return sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
+
+//}
+
+ 
+
+ 
+
+//p333 연습문제 15번
+
+ 
+
+//#include <stdio.h>
+
+//#include <math.h>
+
+//
+
+//int round (double f) ;
+
+//
+
+//int main()
+
+//{
+
+//	double a;
+
+//
+
+//	printf("실수를 입력하세요 : ");
+
+//	scanf("%lf",&a);
+
+//	
+
+//	printf("반올림한 값 = %d\n",round (a));
+
+//
+
+//	return 0;
+
+//}
+
+//
+
+//int round (double f)
+
+//{
+
+//	return (int)(f+0.5);
+
+//}
